@@ -6,8 +6,8 @@ const Services1 = () => {
     <>
       <div className="w-full container mx-auto py-10">
         <div className="grid grid-cols-1 sm:grid-cols-2  sm:gap-20  my-5 mx-4 sm:mx-0">
-          <div className="w-full h-full pt-5 flex flex-col justify-center  sm:gap-5 sm:px-10 border border-red-500 ">
-            <div className="">
+          <div className="w-full h-full pt-5 flex flex-col justify-center  sm:gap-5  border-r border-gray -500 ">
+            <div className="sm:px-10">
               <h1 className="font-bold text-black text-2xl sm:text-5xl text-center sm:text-left tracking-wide">
                 Fast and reliable <br /> logistics services
               </h1>
@@ -16,15 +16,15 @@ const Services1 = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               </p>
             </div>
-            <hr />
-            <div>
+            <hr className="sm:ml-10 border-1" />
+            <div className="sm:px-10">
               <h1 className="text-xl font-bold tracking-wide">
                 View more about our Services
               </h1>
             </div>
           </div>
 
-          <div className="w-full h-full border border-red-500">
+          <div className="w-full h-full ">
             <Image
               className="w-full h-full "
               src="/assets/img/logistics-4.jpeg"
