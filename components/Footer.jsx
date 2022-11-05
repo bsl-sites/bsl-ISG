@@ -88,7 +88,7 @@ const Footer = () => {
 
           <div className="col border-l-2 border-gray-600 pl-2 ">
             <Image
-              src="/assets/img/digitalpayments.png"
+              src="/assets/img/ifs-logo.png"
               layout="intrinsic"
               height="75px"
               width="240px"

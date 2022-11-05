@@ -18,7 +18,7 @@ const HomePageLayout = ({ children }) => {
           <div className="w-full flex justify-between px-0 sm:px-6 border-t-4 border-bslpink z-20 ">
             <div className="flex  w-2/3 items-center">
               <Image
-                src="/assets/img/digitalpayments.png"
+                src="/assets/img/ifs-logo.png"
                 layout="intrinsic"
                 height="75px"
                 width="240px"
